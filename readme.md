@@ -4,16 +4,16 @@ Country Flags Responsive CSS Sprite
 
 A set of great looking country flag icons packed into a responsive CSS sprite.
 
-![alt tag](https://raw.githubusercontent.com/SlavkoPekaric/Country-Flags-Responsive-CSS-Sprite/master/preview.png)
+![alt tag](https://raw.githubusercontent.com/Karakatiza666/tiny-country-flags-js/master/preview.png)
 
 
 What's Included?
 --------------------------------------
 
 - CSS file (css/flags.css)
-- Background image (img/responsive_flags.png)
-- Separate flag images names after country abbreviation codes, in case you need them (img/separate/*.png)
-- Transparent placeholder image which you can use if you want to scale the flags easily (/img/flag_placeholder.png)
+- Background image (images/responsive_flags.png)
+- Separate flag images names after country abbreviation codes, in case you need them (images/separate/*.png)
+- Transparent placeholder image which you can use if you want to scale the flags easily (/images/flag_placeholder.png)
 - Preview HTML page
 
 Size?
@@ -37,7 +37,7 @@ How to use?
 2) With a responsive placeholder. By default the image width is set to flow 30px for PPO, but you can of course change this to anything you need.
 
 ```
-<img src="img/flag_placeholder.png" class="flag flag-{country-abbreviation}>...
+<img src="images/flag_placeholder.png" class="flag flag-{country-abbreviation}>...
 ```
 
 When dynamically displaying flags inside your app or website by referencing abbreviations , in case of a missing flag a stock gray one with an X sign will be displayed.
